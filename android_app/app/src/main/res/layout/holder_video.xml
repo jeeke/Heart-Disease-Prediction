@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="video"
+            type="me.gyanesh.hdp.data.model.Video" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/background_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:image_url="@{video.thumbnail}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/TextAppearance.AppTheme.Body1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@{video.title}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:id="@+id/btn_play"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="?selectableItemBackgroundBorderless"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_round_play_circle_filled_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

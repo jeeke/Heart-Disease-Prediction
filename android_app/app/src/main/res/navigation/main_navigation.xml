@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="me.gyanesh.hdp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="me.gyanesh.hdp.ui.reports.ReportsFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/navigation_articles"
+        android:name="me.gyanesh.hdp.ui.articles.ArticlesFragment"
+        android:label="fragment_articles"
+        tools:layout="@layout/fragment_articles" />
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="me.gyanesh.hdp.ui.videos.VideosFragment"
+        android:label="fragment_videos"
+        tools:layout="@layout/fragment_videos" >
+        <action
+            android:id="@+id/action_navigation_videos_to_videoPlayerFragment"
+            app:destination="@id/videoPlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="me.gyanesh.hdp.ui.videos.VideoPlayerFragment"
+        android:label="VideoPlayerFragment" >
+        <argument
+            android:name="videoId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="me.gyanesh.hdp.ui.articles.ArticleDetailFragment"
+        android:label="ArticleDetailFragment" >
+        <argument
+            android:name="article"
+            app:argType="me.gyanesh.hdp.data.model.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="me.gyanesh.hdp.ui.test.TestFragment"
+        android:label="TestFragment" />
+</navigation>

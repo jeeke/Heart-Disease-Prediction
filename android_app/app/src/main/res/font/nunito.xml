@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--    400 	Normal (Regular)-->
+    <font
+        app:font="@font/nunito_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <!--    500 	Medium-->
+    <font
+        app:font="@font/nunito_regular"
+        app:fontStyle="normal"
+        app:fontWeight="500" />
+
+    <!--    600 	Semi Bold (Demi Bold)-->
+    <font
+        app:font="@font/nunito_semibold"
+        app:fontStyle="normal"
+        app:fontWeight="600" />
+
+    <!--    700 	Bold-->
+    <font
+        app:font="@font/nunito_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+
+
+    <!--    300 	Light-->
+    <font
+        app:font="@font/nunito_lightitalic"
+        app:fontStyle="italic"
+        app:fontWeight="300" />
+
+    <!--    400 	Normal (Regular)-->
+    <font
+        app:font="@font/nunito_regularitalic"
+        app:fontStyle="italic"
+        app:fontWeight="400" />
+
+    <!--    500 	Medium-->
+    <font
+        app:font="@font/nunito_regularitalic"
+        app:fontStyle="italic"
+        app:fontWeight="500" />
+
+
+    <!--    600 	Semi Bold (Demi Bold)-->
+    <font
+        app:font="@font/nunito_semibolditalic"
+        app:fontStyle="italic"
+        app:fontWeight="600" />
+
+
+    <!--    700 	Bold-->
+    <font
+        app:font="@font/nunito_bolditalic"
+        app:fontStyle="italic"
+        app:fontWeight="700" />
+
+</font-family>
+

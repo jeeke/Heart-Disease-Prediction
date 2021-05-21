@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_twotone_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_reports"
+        android:icon="@drawable/ic_twotone_save_24"
+        android:title="@string/reports" />
+
+    <item
+        android:id="@+id/navigation_articles"
+        android:icon="@drawable/ic_twotone_article_24"
+        android:title="@string/articles" />
+
+    <item
+        android:id="@+id/navigation_videos"
+        android:icon="@drawable/ic_twotone_video_library_24"
+        android:title="@string/videos" />
+
+</menu>

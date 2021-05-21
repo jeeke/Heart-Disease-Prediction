@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color-->
+
+    <!--Material uses an organized approach to applying color by providing a set of attributes -->
+    <!--which define the color of generalized UI elements such as backgrounds, surfaces, type -->
+    <!--and icons. Using these attributes throughout your app makes it easy to change a single -->
+    <!--color, or the entire theme, and have those changes cascade through the interface.-->
+
+    <!--Color is customized by overriding Material Components color attributes with custom -->
+    <!--color values. In this project, your theme’s color attributes are already overridden -->
+    <!--with default values defined in this file, color.xml.  Change any of the values in -->
+    <!--this file to see changes applied across all elements of your app.-->
+
+    <!--LIGHT COLOR THEME-->
+
+    <!--colorPrimary colors map to components and elements, such as app bars and buttons. -->
+    <!--colorSecondary colors are most often used as accents on components, such as FABs and -->
+    <!--selection controls.-->
+    <color name="color_primary">#00c3a6</color>
+    <color name="color_primary_variant">#00c3a6</color>
+    <color name="color_secondary">#00c3a6</color>
+    <color name="color_secondary_variant">#00c3a6</color>
+<!--    #33394C-->
+
+
+    <color name="ucrop_color_toolbar">@color/color_primary</color>
+    <color name="ucrop_color_statusbar">@color/color_primary</color>
+    <color name="ucrop_color_widget_active">@color/color_primary</color>
+
+    <!--colorBackground appears behind scrollable content and is used for the default window-->
+    <!--background. colorSurface is mapped to the surface of components such as cards, sheets-->
+    <!--and menus. colorError is used to indicate an error state for components such as-->
+    <!--text fields.-->
+    <color name="color_surface">#ffffff</color>
+    <color name="color_background">#ffffff</color>
+    <color name="color_error">#b00020</color>
+    <color name="color_divider">#1f000000</color>
+    <color name="color_important">#000</color>
+
+    <!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
+    <!--on which they appear.-->
+    <color name="color_on_primary">#fff</color>
+    <color name="color_on_secondary">#fff</color>
+    <color name="color_on_background">@color/blue_grey_700</color>
+    <color name="color_on_surface">@color/blue_grey_700</color>
+    <color name="color_on_error">#ffffff</color>
+    <color name="color_reading">@color/blue_grey_50</color>
+
+    <color name="cyan_50">#E0F7FA</color>
+
+    <color name="blue_grey_50">#ECEFF1</color>
+    <color name="blue_grey_100">#CFD8DC</color>
+    <color name="blue_grey_200">#B0BEC5</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="blue_grey_400">#78909C</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+    <color name="blue_grey_800_overlay">#E637474F</color>
+</resources>

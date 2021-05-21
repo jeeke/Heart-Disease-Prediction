@@ -1,0 +1,11 @@
+server:
+  port: 3000
+
+db:
+  type: 'sqlite'
+  database: 'sqlite.db'
+  synchronize: true
+
+jwt:
+  secret: 'jfal24dfaee324'
+#  expiresIn: 3600

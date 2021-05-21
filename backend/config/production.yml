@@ -1,0 +1,10 @@
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  synchronize: true
+
+jwt:
+  secret: 'jfal24dfaee324'
+#  expiresIn: 3600

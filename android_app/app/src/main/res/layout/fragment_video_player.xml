@@ -1,0 +1,17 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="#000"
+        android:orientation="vertical">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showFullScreenButton="true" />
+    </LinearLayout>
+</layout>

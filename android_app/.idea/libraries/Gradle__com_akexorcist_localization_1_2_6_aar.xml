@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.akexorcist:localization:1.2.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a968b52aacd66f4b595e05cccca4be1e/transformed/localization-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a968b52aacd66f4b595e05cccca4be1e/transformed/localization-1.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a968b52aacd66f4b595e05cccca4be1e/transformed/localization-1.2.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akexorcist/localization/1.2.6/cd50049ad4cf693e7408e0cbd01e3e1f548b75ef/localization-1.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akexorcist/localization/1.2.6/edba03f71b27dbba427df6565c7983b9cff1cee0/localization-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

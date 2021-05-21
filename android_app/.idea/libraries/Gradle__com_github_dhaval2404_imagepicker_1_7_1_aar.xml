@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dhaval2404:imagepicker:1.7.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/22fefabf963568bfe3a3d86f489e71fe/transformed/imagepicker-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22fefabf963568bfe3a3d86f489e71fe/transformed/imagepicker-1.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22fefabf963568bfe3a3d86f489e71fe/transformed/imagepicker-1.7.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dhaval2404/imagepicker/1.7.1/b148ddc390dff07163d4963b6498b23b716327d5/imagepicker-1.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dhaval2404/imagepicker/1.7.1/bc8b63e275b5b3f0a4717ed2b8ee99ea75fea924/imagepicker-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

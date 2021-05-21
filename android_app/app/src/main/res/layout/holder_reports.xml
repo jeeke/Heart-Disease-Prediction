@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="report"
+            type="me.gyanesh.hdp.data.model.TestReport" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/background_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TextAppearance.AppTheme.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/test_taken_on"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/TextAppearance.AppTheme.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@{report.formattedDate}"
+                app:layout_constraintBottom_toBottomOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/TextAppearance.AppTheme.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/risk_of_heart_disease"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/TextAppearance.AppTheme.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@{report.formattedRisk}"
+                app:layout_constraintBottom_toBottomOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

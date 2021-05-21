@@ -1,0 +1,4 @@
+alias - upload
+keystore-password - HDPApp@39
+password - HDPApp@39
+first & last name - HDP App

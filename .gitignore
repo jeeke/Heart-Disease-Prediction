@@ -1,0 +1,12 @@
+./android_app/.gradle
+./android_app/.idea
+./android_app/build
+
+
+./backend/.adminbro
+./backend/.idea
+./backend/dist
+./backend/node_modules
+./backend/sqlite.db
+
+./ml_predictor
