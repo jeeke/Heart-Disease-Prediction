@@ -46,7 +46,7 @@ launch the “Choose Language” screen and change the preferred language.
 - On the home screen, a brief is shown about the app and the motivation
 behind it.
 - Click the “TAKE THE TEST NOW” button launches the form screen for
-heart disease prediction
+heart disease prediction<br></br>
 ![](https://github.com/jeeke/Heart-Disease-Prediction/blob/main/screenshots/app_2_en.png)<br></br>
 
 ##### Prediction Response
