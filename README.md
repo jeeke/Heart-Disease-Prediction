@@ -62,6 +62,6 @@ heart disease prediction<br></br>
 ![](https://github.com/jeeke/Heart-Disease-Prediction/blob/main/screenshots/Screenshot%20from%202021-05-18%2015-53-23.png)<br></br>
 
 
-#### For More Detailed Guide - [READ OUR REPORT](./HDP_REPORT.pdf)<br></br>
+#### For More Detailed Guide - [READ OUR REPORT](./HDP_Report.pdf)<br></br>
 
 
