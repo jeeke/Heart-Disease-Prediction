@@ -16,7 +16,7 @@
 This project aims to predict whether a particular person has some risk of heart problem or not.
 It uses An Android mobile app to interact with the end users and predicts result based on predefined characteristics / attributes.
 
-#### Note - 
+### Note - 
 - To use the app you just have to install the apk, the [Backend](https://hdp-backend.herokuapp.com/admin) and the [ML Model](https://hdp-ml-predictor.herokuapp.com/train) are already deployed and configured on Heroku
 - Before using the app first time, please open both the link once, as heroku shuts down the server if they are idle for long time
 
